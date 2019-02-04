@@ -1,0 +1,107 @@
+
+
+.Background1__container {
+    background-image: url("https://slack-imgs.com/?c=1&url=https%3A%2F%2Fimages.unsplash.com%2F3%2Fwww.madebyvadim.com.jpg%3Fixlib%3Drb-1.2.1%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb%26w%3D1080%26fit%3Dmax%26ixid%3DeyJhcHBfaWQiOjEyMDd9");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-width: 250px;
+    width: auto;
+    height: 100vh;
+    max-height: 760px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+nav {
+    background-color: #212529;
+    height: 60px;
+    color: #FEC503;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    font-size: 12px;
+}
+.Nav__links {
+    display: none;
+}
+.Nav__container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.Nav__title {
+    margin-right: 15%;
+    color: #fed136;
+    font-family: 'Kaushan Script',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+    transition: font-size 1s;
+}
+
+.Menu {
+    color: #fff;
+    background-color: #FED136;
+    height: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+.Greeting__container {
+    color: #fff;
+    padding: 50px;
+    
+}
+
+.Welcome {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+}
+
+.Pleasantries {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin-top: 20px;
+    font-weight: bold; 
+}
+
+@media (min-width: 300px) and (max-width: 1000px) {
+    .Nav__title {
+        margin-right: auto;
+        padding-left: 10vh;
+        font-size: 20px;
+    }
+
+    .Menu {
+        margin-right: 20%;
+    }
+}
+
+@media (min-width: 1001px) {
+    nav {
+        background-color: transparent;
+    }
+
+    .Nav__title {
+        margin-right: auto;
+        padding-left: 10vh;
+        font-size: 20px;
+    }
+
+    .Menu {
+        display: none !important;
+    }
+
+    .Nav__links {
+        width: 10vw;
+        color: white;
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        padding: 15px;
+    }
+}
